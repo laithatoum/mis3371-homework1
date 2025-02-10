@@ -1,0 +1,98 @@
+/* 
+Program name: style.css
+Author: Laith Atoum
+Date created: February 9, 2025
+Date last edited: February 9, 2025
+Version: 1.0
+Description: CSS styles for the patient registration form.
+*/
+
+/* General Page Styles */
+body {
+    background-color: #f0f8ff; /* Light blue background */
+    font-family: Arial, sans-serif; /* Change font */
+    color: #333; /* Dark gray text color */
+    margin: 20px;
+    padding: 0;
+}
+
+/* Header Section */
+.header {
+    background-color: #007acc; /* Blue header background */
+    color: white; /* White text */
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.logo {
+    width: 50px; /* Logo size */
+    height: 50px;
+    vertical-align: middle;
+}
+
+/* Form Styling */
+.form-container {
+    background-color: #ffffff; /* White background for the form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Table Styling for Form Alignment */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+/* Form Elements */
+input[type="text"], input[type="email"], input[type="password"], textarea, select {
+    width: 95%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Buttons */
+button {
+    background-color: #28a745; /* Green button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.footer a {
+    color: #00aced;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
