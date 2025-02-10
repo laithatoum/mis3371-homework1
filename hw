@@ -1,11 +1,3 @@
-<!--
-Program name: patient-form.html
-Author: Laith Atoum
-Date created: February 9, 2025
-Date last edited: February 9, 2025
-Version: 1.0
-Description: A patient registration form for the medical industry capturing demographic data.
--->
 
 <!DOCTYPE html>
 <html lang="en">
